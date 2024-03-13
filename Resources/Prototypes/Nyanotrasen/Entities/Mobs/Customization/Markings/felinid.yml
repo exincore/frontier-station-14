@@ -93,10 +93,10 @@
 # Felinid Tails
 
 - type: marking
-  id: FelinidTailBasic
+  id: FelinidTailBasicAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -106,10 +106,10 @@
     state: basic_tail_stripes_odd
 
 - type: marking
-  id: FelinidTailBasicWithBow
+  id: FelinidTailBasicWithBowAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -121,10 +121,10 @@
     state: basic_bow
 
 - type: marking
-  id: FelinidTailBasicWithBell
+  id: FelinidTailBasicWithBellAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -136,10 +136,10 @@
     state: basic_bell
 
 - type: marking
-  id: FelinidTailBasicWithBowAndBell
+  id: FelinidTailBasicWithBowAndBellAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip

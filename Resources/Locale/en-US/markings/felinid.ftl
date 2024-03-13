@@ -31,26 +31,26 @@ marking-FelinidEarsWide = Wide Ears
 marking-FelinidEarsWide-wide_outer = Outer ear
 marking-FelinidEarsWide-wide_inner = Inner ear
 
-marking-FelinidTailBasic = Basic Tail
-marking-FelinidTailBasic-basic_tail_tip = Tail tip
-marking-FelinidTailBasic-basic_tail_stripes_even = Tail stripes, even
-marking-FelinidTailBasic-basic_tail_stripes_odd = Tail stripes, odd
+marking-FelinidTailBasicAnimated = Basic Tail
+marking-FelinidTailBasicAnimated-basic_tail_tip = Tail tip
+marking-FelinidTailBasicAnimated-basic_tail_stripes_even = Tail stripes, even
+marking-FelinidTailBasicAnimated-basic_tail_stripes_odd = Tail stripes, odd
 
-marking-FelinidTailBasicWithBow = Basic Tail with Bow
-marking-FelinidTailBasicWithBow-basic_tail_tip = Tail tip
-marking-FelinidTailBasicWithBow-basic_tail_stripes_even = Tail stripes, even
-marking-FelinidTailBasicWithBow-basic_tail_stripes_odd = Tail stripes, odd
-marking-FelinidTailBasicWithBow-basic_bow = Bow
+marking-FelinidTailBasicWithBowAnimated = Basic Tail with Bow
+marking-FelinidTailBasicWithBowAnimated-basic_tail_tip = Tail tip
+marking-FelinidTailBasicWithBowAnimated-basic_tail_stripes_even = Tail stripes, even
+marking-FelinidTailBasicWithBowAnimated-basic_tail_stripes_odd = Tail stripes, odd
+marking-FelinidTailBasicWithBowAnimated-basic_bow = Bow
 
-marking-FelinidTailBasicWithBell = Basic Tail with Bell
-marking-FelinidTailBasicWithBell-basic_tail_tip = Tail tip
-marking-FelinidTailBasicWithBell-basic_tail_stripes_even = Tail stripes, even
-marking-FelinidTailBasicWithBell-basic_tail_stripes_odd = Tail stripes, odd
-marking-FelinidTailBasicWithBell-basic_bell = Bell
+marking-FelinidTailBasicWithBellAnimated = Basic Tail with Bell
+marking-FelinidTailBasicWithBellAnimated-basic_tail_tip = Tail tip
+marking-FelinidTailBasicWithBellAnimated-basic_tail_stripes_even = Tail stripes, even
+marking-FelinidTailBasicWithBellAnimated-basic_tail_stripes_odd = Tail stripes, odd
+marking-FelinidTailBasicWithBellAnimated-basic_bell = Bell
 
-marking-FelinidTailBasicWithBowAndBell = Basic Tail with Bow & Bell
-marking-FelinidTailBasicWithBowAndBell-basic_tail_tip = Tail tip
-marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_even = Tail stripes, even
-marking-FelinidTailBasicWithBowAndBell-basic_tail_stripes_odd = Tail stripes, odd
-marking-FelinidTailBasicWithBowAndBell-basic_bow = Bow
-marking-FelinidTailBasicWithBowAndBell-basic_bell = Bell
+marking-FelinidTailBasicWithBowAndBellAnimated = Basic Tail with Bow & Bell
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_tip = Tail tip
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_stripes_even = Tail stripes, even
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_tail_stripes_odd = Tail stripes, odd
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_bow = Bow
+marking-FelinidTailBasicWithBowAndBellAnimated-basic_bell = Bell

@@ -1,8 +1,8 @@
 - type: marking
-  id: FelinidFluffyTailRings
+  id: FelinidFluffyTailRingsAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
@@ -10,10 +10,10 @@
     state: felinid_fluffy_tail_rings
 
 - type: marking
-  id: FelinidFluffyTail
+  id: FelinidFluffyTailAnimated # NF
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Felinid]
+  speciesRestriction: [] # NF
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
