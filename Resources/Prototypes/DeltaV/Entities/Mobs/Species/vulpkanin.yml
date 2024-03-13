@@ -116,6 +116,7 @@
     shortPseudoItem: true
     shortCosmeticOnly: false
   - type: Wagging
+    action: ActionToggleVulpkaninWagging
 
 - type: entity
   save: false

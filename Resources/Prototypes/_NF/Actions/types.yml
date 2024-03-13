@@ -5,3 +5,11 @@
     - type: InstantAction
       icon: { sprite: _NF/Mobs/Customization/Felinid/felinid_tails.rsi, state: basic_tail_icon }
       iconOn: { sprite: _NF/Mobs/Customization/Felinid/felinid_tails.rsi, state: basic_tail_icon }
+
+- type: entity
+  id: ActionToggleVulpkaninWagging
+  parent: ActionToggleWagging
+  components:
+    - type: InstantAction
+      icon: { sprite: _NF/Mobs/Customization/Vulpkanin/tail_markings.rsi, state: vulp_icon }
+      iconOn: { sprite: _NF/Mobs/Customization/Vulpkanin/tail_markings.rsi, state: vulp_icon }
