@@ -34,6 +34,9 @@
         {
             "name": "basic_bell_static",
             "directions": 4
+        },
+        {
+            "name": "basic_tail_icon"
         }
     ]
 }

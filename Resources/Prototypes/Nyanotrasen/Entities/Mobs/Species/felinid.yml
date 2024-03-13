@@ -55,6 +55,7 @@
     tall: true
     tallscale: 1
   - type: Wagging
+    action: ActionToggleFelinidWagging
 
 - type: entity
   save: false
