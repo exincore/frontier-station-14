@@ -329,6 +329,8 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         humanoid.Age = profile.Age;
 
+        RaiseLocalEvent(uid, new HumanoidAppearanceProfileLoadedEvent(humanoid)); // NF
+
         Dirty(humanoid);
     }
 
@@ -399,3 +401,5 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             Dirty(humanoid);
     }
 }
+
+public record struct HumanoidAppearanceProfileLoadedEvent(HumanoidAppearanceComponent HumanoidAppearance); // NF

@@ -1,4 +1,5 @@
-﻿using Content.Server.Actions;
+using System.Linq;
+using Content.Server.Actions;
 using Content.Server.Humanoid;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
@@ -22,15 +23,29 @@ public sealed class WaggingSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<WaggingComponent, MapInitEvent>(OnWaggingMapInit);
+        // Profile markings have not yet been applied at component initialization,
+        // so we must wait for the profile to be applied before testing for wagging markings.
+        SubscribeLocalEvent<WaggingComponent, HumanoidAppearanceProfileLoadedEvent>(OnHumanoidAppearanceProfileLoaded); // NF
+
         SubscribeLocalEvent<WaggingComponent, ComponentShutdown>(OnWaggingShutdown);
         SubscribeLocalEvent<WaggingComponent, ToggleActionEvent>(OnWaggingToggle);
         SubscribeLocalEvent<WaggingComponent, MobStateChangedEvent>(OnMobStateChanged);
     }
 
-    private void OnWaggingMapInit(EntityUid uid, WaggingComponent component, MapInitEvent args)
+    private void OnHumanoidAppearanceProfileLoaded(EntityUid uid, WaggingComponent component, HumanoidAppearanceProfileLoadedEvent args)
     {
-        _actions.AddAction(uid, ref component.ActionEntity, component.Action, uid);
+        if (!args.HumanoidAppearance.MarkingSet.Markings.TryGetValue(MarkingCategories.Tail, out var markings) || markings.Count == 0)
+            return;
+
+        var hasWaggingMarking = markings.Any(x => _prototype.HasIndex<MarkingPrototype>(x.MarkingId + component.Suffix));
+        if (hasWaggingMarking)
+        {
+            _actions.AddAction(uid, ref component.ActionEntity, component.Action, uid);
+        }
+        else
+        {
+            _actions.RemoveAction(uid, component.ActionEntity);
+        }
     }
 
     private void OnWaggingShutdown(EntityUid uid, WaggingComponent component, ComponentShutdown args)
