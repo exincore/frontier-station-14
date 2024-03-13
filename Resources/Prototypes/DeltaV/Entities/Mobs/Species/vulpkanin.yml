@@ -115,6 +115,7 @@
     shortDensity: 140
     shortPseudoItem: true
     shortCosmeticOnly: false
+  - type: Wagging
 
 - type: entity
   save: false
