@@ -54,6 +54,7 @@
   - type: SizeAttributeWhitelist # Frontier
     tall: true
     tallscale: 1
+  - type: Wagging
 
 - type: entity
   save: false
